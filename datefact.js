@@ -2,5 +2,4 @@ const moment = require('moment');
 
 const chalk = require('chalk');
 
-console.log(chalk.blue('Hello world!'));
-console.log(moment.fn.moment.isLeapYear);
+console.log(`It is the ${chalk.blue(moment().format("DDDo"))} day of the year.`);
